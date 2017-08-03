@@ -1,8 +1,11 @@
 module.exports = {
-    entry: './src/app.js',
-    output: {
-        path: `${__dirname}/dist`,
-        filename: 'app.bundle.js'
+    context: __dirname,
+    entry: "./src/app.js",
+    devServer: {
+        contentBase: [
+            "assets",
+            "css",
+        ]
     },
     module: {
         loaders: [{
@@ -11,4 +14,4 @@ module.exports = {
             loader: 'babel-loader'
         }]
     }
-};
+}

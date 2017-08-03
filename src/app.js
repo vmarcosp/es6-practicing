@@ -1,3 +1,3 @@
-const log = nome => console.log(nome);
+import Logger from './utils/Logger';
 
-log('Teste');
+Logger.info('Hello!!');
