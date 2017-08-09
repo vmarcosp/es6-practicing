@@ -4,7 +4,7 @@
   "description": "A repository dedicated to practices ES2015",
   "main": "index.js",
   "scripts": {
-    "dev":"webpack-dev-server --content-base assets --watch-content-base --open"
+    "dev": "webpack-dev-server --content-base assets --watch-content-base --open"
   },
   "repository": {
     "type": "git",
