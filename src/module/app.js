@@ -14,4 +14,3 @@ do {
     console.log('Select current', student);
     next = iterator.next();
 } while (!next.done);
-
